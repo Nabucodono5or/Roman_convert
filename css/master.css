@@ -3,8 +3,15 @@
   margin: 0;
 }
 
+/*
+    font-family: 'Alatsi', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bree Serif', serif;
+*/
+
 .hero {
-  background-image: linear-gradient(rgba(8, 124, 167, 0.5), rgba(8, 124, 167, 0.5)), url("../images/fabrizio-verrecchia-Ai7sV3SSMIQ-unsplash.jpg");
+  background-image: linear-gradient(rgba(98, 131, 149, 0.5), rgba(4, 53, 101, 0.5)), url("../images/fabrizio-verrecchia-Ai7sV3SSMIQ-unsplash.jpg");
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,6 +39,7 @@
 }
 
 .hero-text {
+  font-family: 'Alatsi', sans-serif;
   line-height: 1.5rem;
   top: 50%;
   left: 50%;
@@ -40,4 +48,14 @@
   width: 60%;
   color: #fff;
   position: absolute;
+  line-height: 1.5rem;
+}
+
+.hero-text p {
+  font-family: 'Bree Serif', serif;
+}
+
+.text-title {
+  margin: 1.5rem 0;
+  line-height: 2rem;
 }
