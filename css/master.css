@@ -2,3 +2,42 @@
   padding: 0;
   margin: 0;
 }
+
+.hero {
+  background-image: linear-gradient(rgba(8, 124, 167, 0.5), rgba(8, 124, 167, 0.5)), url("../images/fabrizio-verrecchia-Ai7sV3SSMIQ-unsplash.jpg");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.logo {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.text-logo {
+  top: 4%;
+  left: 3%;
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.logo-maior {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text {
+  line-height: 1.5rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 60%;
+  color: #fff;
+  position: absolute;
+}
