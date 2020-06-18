@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/Nabucodono5or/Roman_convert#readme",
   "dependencies": {
-    "angular": "^1.7.9"
+    "angular": "^1.8.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
